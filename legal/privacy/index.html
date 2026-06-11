@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Notice — H.E.Rv3</title>
+  <meta name="description" content="UK GDPR Privacy Notice for H.E.Rv3 Health Electronic Records v3.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<nav>
+  <a href="/" class="nav-brand">H.E.R<span style="color:#7dd3fc">v3</span></a>
+  <div class="nav-links">
+    <a href="/support/">Support</a>
+    <a href="/legal/terms/">Terms</a>
+    <a href="/legal/sla/">SLA</a>
+  </div>
+</nav>
+
+<div class="page-header">
+  <h1>Privacy Notice</h1>
+  <p>UK GDPR — Data Protection Act 2018 &nbsp;|&nbsp; Last reviewed: <strong>[DATE]</strong></p>
+</div>
+
+<div class="content">
+  <div class="notice">⚠️ <strong>Placeholder notice:</strong> Replace <strong>[YOUR FULL NAME]</strong>, <strong>[YOUR ADDRESS]</strong>, and <strong>[DATE]</strong> before this page goes live. Seek advice from a UK data protection solicitor before first use.</div>
+
+  <p>Operated by: <strong>[YOUR FULL NAME]</strong> trading as H.E.Rv3 ("we", "us", "our")<br>
+  Address: <strong>[YOUR ADDRESS]</strong><br>
+  Contact: <a href="mailto:nsmoh@yahoo.co.uk">nsmoh@yahoo.co.uk</a><br>
+  Effective date: <strong>[DATE]</strong></p>
+
+  <h2>1. Who This Notice Is For</h2>
+  <p>This notice applies to:</p>
+  <ul>
+    <li><strong>Patients</strong> whose health records are managed in H.E.Rv3 by a clinic or GP practice</li>
+    <li><strong>Clinical and administrative staff</strong> who use H.E.Rv3 as part of their role</li>
+  </ul>
+  <p>Your clinic or GP practice is the <strong>Data Controller</strong> — the organisation responsible for deciding how your health data is used. H.E.Rv3 provides the software as a <strong>Data Processor</strong> acting on the Controller's instructions. For questions about how your specific clinic uses your data, contact your clinic directly.</p>
+
+  <h2>2. What Personal Data We Process</h2>
+  <h3>For Patients</h3>
+  <table>
+    <tr><th>Category</th><th>Examples</th></tr>
+    <tr><td><strong>Identity data</strong></td><td>Full name, date of birth, NHS number, address, telephone, email</td></tr>
+    <tr><td><strong>Health data (Special Category)</strong></td><td>Medical history, diagnoses, medications, allergies, lab results, clinical notes, referrals</td></tr>
+    <tr><td><strong>Appointment data</strong></td><td>Appointment dates, times, clinician, attendance records</td></tr>
+    <tr><td><strong>Financial data</strong></td><td>Billing records, insurance details (where applicable)</td></tr>
+    <tr><td><strong>System data</strong></td><td>Log-in timestamps, device type (for access audit purposes)</td></tr>
+  </table>
+
+  <h3>For Staff Users</h3>
+  <table>
+    <tr><th>Category</th><th>Examples</th></tr>
+    <tr><td><strong>Identity data</strong></td><td>Full name, professional registration number, role, work email</td></tr>
+    <tr><td><strong>Access data</strong></td><td>Log-in timestamps, actions taken within the system (audit log)</td></tr>
+    <tr><td><strong>Authentication data</strong></td><td>Username, MFA device registration (passwords are never stored in plain text)</td></tr>
+  </table>
+
+  <h2>3. Why We Process Your Data and Our Legal Basis</h2>
+  <table>
+    <tr><th>Purpose</th><th>Legal basis (UK GDPR)</th></tr>
+    <tr><td>Electronic health records and clinical workflow support</td><td>Art. 6(1)(c) — legal obligation; Art. 9(2)(h) — healthcare provision</td></tr>
+    <tr><td>Scheduling and appointment management</td><td>Art. 6(1)(b) — contract; Art. 9(2)(h)</td></tr>
+    <tr><td>Prescribing and medication management</td><td>Art. 6(1)(c) — legal obligation; Art. 9(2)(h)</td></tr>
+    <tr><td>Clinical decision support (AI suggestions)</td><td>Art. 9(2)(h). AI outputs are informational only; a clinician must approve every suggestion before it is recorded</td></tr>
+    <tr><td>Billing and invoicing</td><td>Art. 6(1)(b) — contract</td></tr>
+    <tr><td>Audit logging</td><td>Art. 6(1)(c) — legal obligation; Art. 6(1)(f) — legitimate interests</td></tr>
+    <tr><td>FHIR data export and interoperability</td><td>Art. 6(1)(c) — legal obligation; Art. 20 — data portability</td></tr>
+    <tr><td>System security and fraud prevention</td><td>Art. 6(1)(f) — legitimate interests</td></tr>
+  </table>
+
+  <h2>4. How Long We Keep Your Data</h2>
+  <table>
+    <tr><th>Record type</th><th>Retention period</th></tr>
+    <tr><td>Adult patient health records</td><td>Minimum 8 years from last clinical contact (NHS Records Management Code 2021)</td></tr>
+    <tr><td>Paediatric records</td><td>Until the patient turns 25, or 8 years from last contact — whichever is longer</td></tr>
+    <tr><td>Audit logs</td><td>7 years</td></tr>
+    <tr><td>Billing records</td><td>7 years (HMRC requirement)</td></tr>
+    <tr><td>Staff access data</td><td>3 years after end of employment or contract</td></tr>
+  </table>
+
+  <h2>5. Who We Share Your Data With</h2>
+  <p>We do not sell your personal data.</p>
+  <table>
+    <tr><th>Recipient</th><th>Purpose</th><th>Safeguards</th></tr>
+    <tr><td>Cloud infrastructure provider (AWS)</td><td>Hosting and storage</td><td>AWS BAA / DPA in place</td></tr>
+    <tr><td>Error monitoring (Sentry)</td><td>Application error detection</td><td>Configured with no PHI transmission</td></tr>
+    <tr><td>AI/CDS provider (where AI features are enabled)</td><td>Clinical decision support suggestions</td><td>De-identified prompts only; provider DPA in place</td></tr>
+    <tr><td>Payment processor (Lemon Squeezy)</td><td>Billing only — name, email, payment details. No PHI transmitted.</td><td>Lemon Squeezy DPA (Standard Contractual Clauses)</td></tr>
+    <tr><td>Your clinicians and clinical team</td><td>Providing your care</td><td>Strictly role-based access (RBAC)</td></tr>
+    <tr><td>Regulatory bodies</td><td>Where required by law</td><td>Only when legally required</td></tr>
+  </table>
+
+  <h2>6. International Transfers</h2>
+  <p>We process your data within the United Kingdom. Where any third-party service provider processes data outside the UK, we ensure a UK adequacy regulation is in force or a UK International Data Transfer Agreement (IDTA) is in place. AI provider prompts contain de-identified data only — no names, NHS numbers, or direct identifiers are transmitted.</p>
+
+  <h2>7. Your Rights</h2>
+  <table>
+    <tr><th>Right</th><th>What it means</th><th>How to exercise</th></tr>
+    <tr><td><strong>Access (Art. 15)</strong></td><td>Request a copy of your personal data</td><td>Contact your clinic or email <a href="mailto:nsmoh@yahoo.co.uk">nsmoh@yahoo.co.uk</a></td></tr>
+    <tr><td><strong>Rectification (Art. 16)</strong></td><td>Ask us to correct inaccurate data</td><td>Contact your clinic</td></tr>
+    <tr><td><strong>Erasure (Art. 17)</strong></td><td>Ask us to delete your data — subject to legal retention requirements</td><td>Contact your clinic; note clinical records must be retained per Section 4</td></tr>
+    <tr><td><strong>Restriction (Art. 18)</strong></td><td>Ask us to restrict processing in certain circumstances</td><td>Contact your clinic</td></tr>
+    <tr><td><strong>Portability (Art. 20)</strong></td><td>Receive your data in a structured, machine-readable format (FHIR R4)</td><td>Contact your clinic</td></tr>
+    <tr><td><strong>Object (Art. 21)</strong></td><td>Object to processing based on legitimate interests</td><td>Contact your clinic</td></tr>
+    <tr><td><strong>Automated decisions (Art. 22)</strong></td><td>Not to be subject to purely automated clinical decisions</td><td>H.E.Rv3 does not make automated clinical decisions — all AI outputs require clinician approval</td></tr>
+  </table>
+  <p>We will respond within <strong>one calendar month</strong>.</p>
+
+  <h2>8. Security</h2>
+  <ul>
+    <li>Field-level AES-128 encryption for all health data at rest</li>
+    <li>TLS 1.2+ encryption for all data in transit</li>
+    <li>Role-based access control (RBAC)</li>
+    <li>Multi-factor authentication (MFA)</li>
+    <li>Append-only audit log of every PHI access</li>
+    <li>Automated vulnerability scanning and patching</li>
+  </ul>
+
+  <h2>9. Changes to This Notice</h2>
+  <p>We will update this notice when our processing changes or when the law requires. The effective date at the top shows when this version came into force. Previous versions are available on request.</p>
+
+  <h2>10. How to Complain</h2>
+  <p>If you are not satisfied with how we handle your personal data, you have the right to complain to the <strong>Information Commissioner's Office (ICO)</strong>:</p>
+  <ul>
+    <li>Website: <a href="https://ico.org.uk" target="_blank" rel="noopener">ico.org.uk</a></li>
+    <li>Phone: 0303 123 1113</li>
+    <li>Post: Information Commissioner's Office, Wycliffe House, Water Lane, Wilmslow, Cheshire, SK9 5AF</li>
+  </ul>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <a href="/" class="footer-brand">H.E.Rv3</a>
+    <div class="footer-links">
+      <a href="/support/">Support</a>
+      <a href="/legal/privacy/">Privacy Notice</a>
+      <a href="/legal/terms/">Terms of Use</a>
+      <a href="/legal/sla/">SLA Policy</a>
+    </div>
+    <p class="footer-copy">H.E.Rv3 is operated by <strong>[YOUR FULL NAME]</strong> trading as H.E.Rv3. Contact: <a href="mailto:nsmoh@yahoo.co.uk">nsmoh@yahoo.co.uk</a></p>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SLA &amp; Support Policy — H.E.Rv3</title>
+  <meta name="description" content="Service Level Agreement and Support Policy for H.E.Rv3 Health Electronic Records v3.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<nav>
+  <a href="/" class="nav-brand">H.E.R<span style="color:#7dd3fc">v3</span></a>
+  <div class="nav-links">
+    <a href="/support/">Support</a>
+    <a href="/legal/privacy/">Privacy</a>
+    <a href="/legal/terms/">Terms</a>
+  </div>
+</nav>
+
+<div class="page-header">
+  <h1>SLA &amp; Support Policy</h1>
+  <p>Version 1.0 &nbsp;|&nbsp; Effective date: <strong>[DATE]</strong></p>
+</div>
+
+<div class="content">
+  <div class="notice">⚠️ <strong>Placeholder:</strong> Replace <strong>[YOUR FULL NAME]</strong>, <strong>[YOUR ADDRESS]</strong>, and <strong>[DATE]</strong> before this page goes live.</div>
+
+  <p>Provider: <strong>[YOUR FULL NAME]</strong> trading as H.E.Rv3<br>
+  Address: <strong>[YOUR ADDRESS]</strong><br>
+  Contact: <a href="mailto:nsmoh@yahoo.co.uk">nsmoh@yahoo.co.uk</a></p>
+
+  <h2>1. Support Tiers</h2>
+
+  <h3>Standard Support (included in all licences)</h3>
+  <table>
+    <tr><th>Item</th><th>Detail</th></tr>
+    <tr><td>Channels</td><td>Email: <a href="mailto:nsmoh@yahoo.co.uk">nsmoh@yahoo.co.uk</a></td></tr>
+    <tr><td>Coverage hours</td><td>Monday–Friday, 09:00–17:30 UK time, excluding UK public holidays</td></tr>
+    <tr><td>First response — P1 (Critical)</td><td>4 business hours</td></tr>
+    <tr><td>First response — P2 (High)</td><td>1 business day</td></tr>
+    <tr><td>First response — P3 (Normal)</td><td>3 business days</td></tr>
+    <tr><td>First response — P4 (Low)</td><td>5 business days</td></tr>
+    <tr><td>Bug fixes</td><td>Included; scheduled in next release cycle</td></tr>
+    <tr><td>Documentation</td><td>Full deployment and user guides provided</td></tr>
+  </table>
+
+  <h3>Priority Support (paid add-on)</h3>
+  <table>
+    <tr><th>Item</th><th>Detail</th></tr>
+    <tr><td>Channels</td><td>Email + direct phone/video call to support lead</td></tr>
+    <tr><td>Coverage hours</td><td>Monday–Friday, 08:00–20:00 UK time + emergency out-of-hours for P1</td></tr>
+    <tr><td>First response — P1 (Critical)</td><td>1 hour (including out-of-hours)</td></tr>
+    <tr><td>First response — P2 (High)</td><td>4 business hours</td></tr>
+    <tr><td>First response — P3 (Normal)</td><td>1 business day</td></tr>
+    <tr><td>Emergency out-of-hours</td><td>P1 clinical emergencies only</td></tr>
+  </table>
+
+  <h2>2. Availability (SaaS Deployments)</h2>
+  <table>
+    <tr><th>Metric</th><th>Commitment</th></tr>
+    <tr><td>Monthly uptime target</td><td>99.5% (excluding scheduled maintenance)</td></tr>
+    <tr><td>Scheduled maintenance</td><td>Max 2 hours/month; 48 hours notice; 23:00–05:00 UK time</td></tr>
+  </table>
+
+  <h3>Service Credits (if SLA is breached)</h3>
+  <table>
+    <tr><th>Monthly uptime</th><th>Credit</th></tr>
+    <tr><td>99.0% – 99.5%</td><td>5% of monthly fee</td></tr>
+    <tr><td>95.0% – 99.0%</td><td>10% of monthly fee</td></tr>
+    <tr><td>Below 95.0%</td><td>20% of monthly fee</td></tr>
+  </table>
+
+  <p>For <strong>self-hosted deployments</strong>, H.E.Rv3 does not control or commit to uptime. We provide a health check endpoint, backup/restore runbook, and disaster recovery guide.</p>
+
+  <h2>3. Severity Definitions</h2>
+  <table>
+    <tr><th>Level</th><th>Definition</th><th>Examples</th></tr>
+    <tr><td><strong>P1 — Critical</strong></td><td>Software completely unavailable or patient safety issue; no workaround</td><td>System down; login impossible; PHI corruption; break-glass unavailable</td></tr>
+    <tr><td><strong>P2 — High</strong></td><td>Core clinical functionality impaired; no workaround</td><td>Unable to access patient records; prescribing blocked; MFA broken</td></tr>
+    <tr><td><strong>P3 — Normal</strong></td><td>Feature degraded but workaround exists</td><td>Appointment errors; one report not generating; AI features offline</td></tr>
+    <tr><td><strong>P4 — Low</strong></td><td>Minor issue; cosmetic; enhancement request</td><td>UI display issue; non-critical error; feature request</td></tr>
+  </table>
+  <p><strong>Clinical safety escalation:</strong> If any P1 or P2 issue creates an immediate risk to patient safety, contact us immediately — flagged <strong>URGENT: Patient Safety</strong> — we will escalate regardless of support tier.</p>
+
+  <h2>4. Submitting a Support Request</h2>
+  <p>To minimise response time, include: severity level, impact (who is affected, clinical impact), description (what happened, what you expected), steps to reproduce, error messages or screenshots (remove PHI from screenshots), H.E.Rv3 version, and browser/OS for UI issues.</p>
+  <p><strong>Do not include real patient data (PHI) in support tickets.</strong> Use patient ID numbers or anonymised examples only.</p>
+
+  <h2>5. Exclusions</h2>
+  <p>SLA obligations do not apply to issues caused by: Customer failure to apply recommended updates; Customer infrastructure or third-party services; Customer misconfiguration; force majeure events; malicious acts by Customer's employees; unsupported software versions; issues reported more than 30 days after occurrence.</p>
+
+  <h2>6. Software Support Lifecycle</h2>
+  <table>
+    <tr><th>Release type</th><th>Support period</th></tr>
+    <tr><td>Current release</td><td>Full support — bug fixes, security patches, new features</td></tr>
+    <tr><td>Previous major release</td><td>Security patches only — for 12 months after successor release</td></tr>
+    <tr><td>End-of-life versions</td><td>No support; upgrade strongly recommended</td></tr>
+  </table>
+  <p>H.E.Rv3 will give a minimum of <strong>3 months' notice</strong> before moving a release to end-of-life.</p>
+
+  <h2>7. Contact</h2>
+  <table>
+    <tr><th>Issue type</th><th>Contact</th></tr>
+    <tr><td>Support (all tiers)</td><td><a href="mailto:nsmoh@yahoo.co.uk">nsmoh@yahoo.co.uk</a></td></tr>
+    <tr><td>Security incidents</td><td><a href="mailto:nsmoh@yahoo.co.uk">nsmoh@yahoo.co.uk</a> — subject: SECURITY INCIDENT</td></tr>
+    <tr><td>Privacy / data subject rights</td><td><a href="mailto:nsmoh@yahoo.co.uk">nsmoh@yahoo.co.uk</a> — subject: DATA PROTECTION</td></tr>
+    <tr><td>Clinical safety concerns</td><td><a href="mailto:nsmoh@yahoo.co.uk">nsmoh@yahoo.co.uk</a> — subject: CLINICAL SAFETY</td></tr>
+  </table>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <a href="/" class="footer-brand">H.E.Rv3</a>
+    <div class="footer-links">
+      <a href="/support/">Support</a>
+      <a href="/legal/privacy/">Privacy Notice</a>
+      <a href="/legal/terms/">Terms of Use</a>
+      <a href="/legal/sla/">SLA Policy</a>
+    </div>
+    <p class="footer-copy">H.E.Rv3 is operated by <strong>[YOUR FULL NAME]</strong> trading as H.E.Rv3. Contact: <a href="mailto:nsmoh@yahoo.co.uk">nsmoh@yahoo.co.uk</a></p>
+  </div>
+</footer>
+
+</body>
+</html>

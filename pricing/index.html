@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing — H.E.Rv3</title>
+  <meta name="description" content="Simple, practice-based pricing for H.E.Rv3 Health Electronic Records v3. No per-user fees. Plans for solo clinicians, GP practices, and multi-site clinics.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="show-monthly">
+
+<nav>
+  <a href="/" class="nav-brand"><img src="/img/herv3-logo.png" alt="H.E.Rv3" class="nav-logo"></a>
+  <div class="nav-links">
+    <a href="/pricing/">Pricing</a>
+    <a href="/support/">Support</a>
+    <a href="/legal/privacy/">Privacy</a>
+    <a href="/legal/terms/">Terms</a>
+  </div>
+</nav>
+
+<div class="page-header">
+  <h1>Simple, Practice-Based Pricing</h1>
+  <p>No per-user fees. No hidden costs. Priced for clinics, not enterprise.</p>
+</div>
+
+<section class="pricing">
+  <div class="pricing-intro">
+    <p>All plans include FHIR R4, AI-assisted documentation, PHI encryption, MFA, RBAC, audit log, HIPAA BAA, and UK GDPR DPA.</p>
+
+    <div class="toggle-wrap">
+      <span class="toggle-label active" id="lbl-monthly">Monthly</span>
+      <label class="toggle">
+        <input type="checkbox" id="billing-toggle">
+        <span class="toggle-slider"></span>
+      </label>
+      <span class="toggle-label" id="lbl-annual">Annual <span class="save-badge">Save 2 months</span></span>
+    </div>
+  </div>
+
+  <div class="pricing-grid">
+
+    <!-- SOLO -->
+    <div class="pricing-card">
+      <h3>Solo</h3>
+      <p class="tagline">For single-clinician private practices and locum practitioners.</p>
+      <div class="price-block">
+        <div class="monthly-price">
+          <div class="price-amount"><span>£</span>149</div>
+          <div class="price-period">per month</div>
+          <div class="price-annual-note">&nbsp;</div>
+          <div class="price-usd">~$199 USD / month</div>
+        </div>
+        <div class="annual-price">
+          <div class="price-amount"><span>£</span>1,490</div>
+          <div class="price-period">per year</div>
+          <div class="price-annual-note">£124/month — 2 months free</div>
+          <div class="price-usd">~$1,990 USD / year</div>
+        </div>
+      </div>
+      <a href="/support/" class="pricing-cta">Get Started</a>
+      <ul class="feature-list">
+        <li class="feature-divider">Included</li>
+        <li>1 practice (site)</li>
+        <li>Up to 5 users (any mix)</li>
+        <li>Standard support (Mon–Fri 09:00–17:30)</li>
+        <li>AI/CDS (Bedrock — clinician approval required)</li>
+        <li>FHIR R4 export (US Core + UK Core)</li>
+        <li>Field-level AES-128 PHI encryption</li>
+        <li>MFA + RBAC + break-glass access</li>
+        <li>Append-only audit log</li>
+        <li>HIPAA BAA</li>
+        <li>UK GDPR DPA</li>
+        <li class="feature-divider">Add-ons</li>
+        <li>Extra users: +£15/$19 per user/month</li>
+        <li class="no">Custom BAA/DPA</li>
+        <li class="no">Assisted onboarding</li>
+        <li class="no">Priority support</li>
+      </ul>
+    </div>
+
+    <!-- PRACTICE (FEATURED) -->
+    <div class="pricing-card featured">
+      <div class="popular-badge">Most Popular</div>
+      <h3>Practice</h3>
+      <p class="tagline">For GP surgeries and outpatient clinics with a full clinical team.</p>
+      <div class="price-block">
+        <div class="monthly-price">
+          <div class="price-amount"><span>£</span>299</div>
+          <div class="price-period">per month</div>
+          <div class="price-annual-note">&nbsp;</div>
+          <div class="price-usd">~$399 USD / month</div>
+        </div>
+        <div class="annual-price">
+          <div class="price-amount"><span>£</span>2,990</div>
+          <div class="price-period">per year</div>
+          <div class="price-annual-note">£249/month — 2 months free</div>
+          <div class="price-usd">~$3,990 USD / year</div>
+        </div>
+      </div>
+      <a href="/support/" class="pricing-cta">Get Started</a>
+      <ul class="feature-list">
+        <li class="feature-divider">Included</li>
+        <li>1 practice (site)</li>
+        <li>Up to 20 users (any mix)</li>
+        <li>Standard support (Mon–Fri 09:00–17:30)</li>
+        <li>AI/CDS (Bedrock — clinician approval required)</li>
+        <li>FHIR R4 export (US Core + UK Core)</li>
+        <li>Field-level AES-128 PHI encryption</li>
+        <li>MFA + RBAC + break-glass access</li>
+        <li>Append-only audit log</li>
+        <li>HIPAA BAA</li>
+        <li>UK GDPR DPA</li>
+        <li class="feature-divider">Add-ons</li>
+        <li>Extra users: +£12/$15 per user/month</li>
+        <li class="no">Custom BAA/DPA</li>
+        <li class="no">Assisted onboarding</li>
+        <li class="no">Priority support</li>
+      </ul>
+    </div>
+
+    <!-- CLINIC -->
+    <div class="pricing-card">
+      <h3>Clinic</h3>
+      <p class="tagline">For multi-site groups, branch surgeries, and specialist clinic chains.</p>
+      <div class="price-block">
+        <div class="monthly-price">
+          <div class="price-amount"><span>£</span>549</div>
+          <div class="price-period">per month</div>
+          <div class="price-annual-note">&nbsp;</div>
+          <div class="price-usd">~$699 USD / month</div>
+        </div>
+        <div class="annual-price">
+          <div class="price-amount"><span>£</span>5,490</div>
+          <div class="price-period">per year</div>
+          <div class="price-annual-note">£458/month — 2 months free</div>
+          <div class="price-usd">~$6,990 USD / year</div>
+        </div>
+      </div>
+      <a href="/support/" class="pricing-cta">Get Started</a>
+      <ul class="feature-list">
+        <li class="feature-divider">Included</li>
+        <li>Up to 3 practices (sites)</li>
+        <li>Up to 20 users per site</li>
+        <li>Priority support (extended hours + P1 out-of-hours)</li>
+        <li>AI/CDS (Bedrock — clinician approval required)</li>
+        <li>FHIR R4 export (US Core + UK Core)</li>
+        <li>Field-level AES-128 PHI encryption</li>
+        <li>MFA + RBAC + break-glass access</li>
+        <li>Append-only audit log</li>
+        <li>HIPAA BAA</li>
+        <li>UK GDPR DPA</li>
+        <li>Custom BAA/DPA</li>
+        <li>Assisted onboarding</li>
+        <li class="feature-divider">Add-ons</li>
+        <li>Extra users: +£10/$12 per user/month</li>
+      </ul>
+    </div>
+
+    <!-- ENTERPRISE -->
+    <div class="pricing-card enterprise-card">
+      <h3>Enterprise</h3>
+      <p class="tagline">For NHS trusts, large multi-site organisations, and self-hosted deployments.</p>
+      <div class="price-block">
+        <div class="price-amount" style="font-size:1.5rem; color:white;">Contact us</div>
+        <div class="price-period">custom contract</div>
+        <div class="price-annual-note">&nbsp;</div>
+        <div class="price-usd">&nbsp;</div>
+      </div>
+      <a href="mailto:qnicktech@gmail.com?subject=Enterprise%20Enquiry" class="pricing-cta">Contact Sales</a>
+      <ul class="feature-list">
+        <li class="feature-divider" style="color:#94a3b8;">Included</li>
+        <li>Custom number of practices</li>
+        <li>Custom user allocation</li>
+        <li>Dedicated SLA &amp; account manager</li>
+        <li>AI/CDS (Bedrock or self-hosted model)</li>
+        <li>FHIR R4 export (US Core + UK Core)</li>
+        <li>Field-level AES-128 PHI encryption</li>
+        <li>MFA + RBAC + break-glass access</li>
+        <li>Append-only audit log</li>
+        <li>HIPAA BAA</li>
+        <li>UK GDPR DPA</li>
+        <li>Custom BAA/DPA</li>
+        <li>Dedicated onboarding &amp; training</li>
+        <li>Self-hosted deployment option</li>
+        <li>Custom data residency</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <p class="pricing-note">
+    All prices exclude VAT where applicable. UK subscriptions billed in GBP; US and international customers billed in USD at equivalent rates.
+    HIPAA BAA included on all plans — no additional charge. Prices subject to change with 30 days' notice.
+    Need help choosing? <a href="/support/">Contact us</a>.
+  </p>
+</section>
+
+<section class="cta-band">
+  <h2>Not sure which plan fits?</h2>
+  <p>Get in touch — we'll walk you through the options and answer any compliance questions.</p>
+  <a href="/support/" class="btn">Talk to Us</a>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <a href="/" class="footer-brand"><img src="/img/herv3-logo.png" alt="H.E.Rv3" style="height:40px;width:auto;filter:brightness(0) invert(1);opacity:0.85;"></a>
+    <div class="footer-links">
+      <a href="/support/">Support</a>
+      <a href="/pricing/">Pricing</a>
+      <a href="/legal/privacy/">Privacy Notice</a>
+      <a href="/legal/terms/">Terms of Use</a>
+      <a href="/legal/sla/">SLA Policy</a>
+    </div>
+    <p class="footer-copy">H.E.Rv3 is operated by <strong>Nicholas Mohammed</strong> trading as H.E.Rv3. Contact: <a href="mailto:qnicktech@gmail.com">qnicktech@gmail.com</a></p>
+  </div>
+</footer>
+
+<script>
+  const toggle = document.getElementById('billing-toggle');
+  const body = document.body;
+  const lblMonthly = document.getElementById('lbl-monthly');
+  const lblAnnual = document.getElementById('lbl-annual');
+  toggle.addEventListener('change', () => {
+    if (toggle.checked) {
+      body.classList.replace('show-monthly', 'show-annual');
+      lblMonthly.classList.remove('active');
+      lblAnnual.classList.add('active');
+    } else {
+      body.classList.replace('show-annual', 'show-monthly');
+      lblAnnual.classList.remove('active');
+      lblMonthly.classList.add('active');
+    }
+  });
+</script>
+
+</body>
+</html>

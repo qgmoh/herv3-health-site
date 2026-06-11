@@ -26,6 +26,110 @@
 </div>
 
 <div class="content">
+  <p>Operated by: <strong>Nicholas Mohammed</strong> trading as H.E.Rv3 ("we", "us", "our")<br>
+  Address: <strong>32 Russet Drive, Abingdon OX14 4BF, United Kingdom</strong><br>
+  Contact: <a href="mailto:qnicktech@gmail.com">qnicktech@gmail.com</a><br>
+  Effective date: <strong>11 June 2026</strong></p>
+
+  <h2>1. Who This Notice Is For</h2>
+  <p>This notice applies to:</p>
+  <ul>
+    <li><strong>Patients</strong> whose health records are managed in H.E.Rv3 by a clinic or GP practice</li>
+    <li><strong>Clinical and administrative staff</strong> who use H.E.Rv3 as part of their role</li>
+  </ul>
+  <p>Your clinic or GP practice is the <strong>Data Controller</strong>. H.E.Rv3 provides the software as a <strong>Data Processor</strong> acting on the Controller's instructions. For questions about how your specific clinic uses your data, contact your clinic directly.</p>
+
+  <h2>2. What Personal Data We Process</h2>
+  <h3>For Patients</h3>
+  <table>
+    <tr><th>Category</th><th>Examples</th></tr>
+    <tr><td><strong>Identity data</strong></td><td>Full name, date of birth, NHS number, address, telephone, email</td></tr>
+    <tr><td><strong>Health data (Special Category)</strong></td><td>Medical history, diagnoses, medications, allergies, lab results, clinical notes, referrals</td></tr>
+    <tr><td><strong>Appointment data</strong></td><td>Appointment dates, times, clinician, attendance records</td></tr>
+    <tr><td><strong>Financial data</strong></td><td>Billing records, insurance details (where applicable)</td></tr>
+    <tr><td><strong>System data</strong></td><td>Log-in timestamps, device type (for access audit purposes)</td></tr>
+  </table>
+
+  <h3>For Staff Users</h3>
+  <table>
+    <tr><th>Category</th><th>Examples</th></tr>
+    <tr><td><strong>Identity data</strong></td><td>Full name, professional registration number, role, work email</td></tr>
+    <tr><td><strong>Access data</strong></td><td>Log-in timestamps, actions taken within the system (audit log)</td></tr>
+    <tr><td><strong>Authentication data</strong></td><td>Username, MFA device registration (passwords never stored in plain text)</td></tr>
+  </table>
+
+  <h2>3. Legal Basis for Processing</h2>
+  <table>
+    <tr><th>Purpose</th><th>Legal basis (UK GDPR)</th></tr>
+    <tr><td>Electronic health records and clinical workflow</td><td>Art. 6(1)(c) — legal obligation; Art. 9(2)(h) — healthcare provision</td></tr>
+    <tr><td>Scheduling and appointments</td><td>Art. 6(1)(b) — contract; Art. 9(2)(h)</td></tr>
+    <tr><td>Prescribing and medication management</td><td>Art. 6(1)(c) — legal obligation; Art. 9(2)(h)</td></tr>
+    <tr><td>Clinical decision support (AI suggestions)</td><td>Art. 9(2)(h). AI outputs are informational only; clinician approval required before recording</td></tr>
+    <tr><td>Billing and invoicing</td><td>Art. 6(1)(b) — contract</td></tr>
+    <tr><td>Audit logging</td><td>Art. 6(1)(c) — legal obligation; Art. 6(1)(f) — legitimate interests</td></tr>
+    <tr><td>FHIR data export</td><td>Art. 6(1)(c) — legal obligation; Art. 20 — data portability</td></tr>
+    <tr><td>System security</td><td>Art. 6(1)(f) — legitimate interests</td></tr>
+  </table>
+
+  <h2>4. Retention Periods</h2>
+  <table>
+    <tr><th>Record type</th><th>Retention period</th></tr>
+    <tr><td>Adult patient health records</td><td>Minimum 8 years from last clinical contact (NHS Records Management Code 2021)</td></tr>
+    <tr><td>Paediatric records</td><td>Until the patient turns 25, or 8 years from last contact — whichever is longer</td></tr>
+    <tr><td>Audit logs</td><td>7 years</td></tr>
+    <tr><td>Billing records</td><td>7 years (HMRC requirement)</td></tr>
+    <tr><td>Staff access data</td><td>3 years after end of employment or contract</td></tr>
+  </table>
+
+  <h2>5. Who We Share Your Data With</h2>
+  <p>We do not sell your personal data.</p>
+  <table>
+    <tr><th>Recipient</th><th>Purpose</th><th>Safeguards</th></tr>
+    <tr><td>AWS (cloud infrastructure)</td><td>Hosting and storage</td><td>AWS BAA / DPA in place</td></tr>
+    <tr><td>Sentry (error monitoring)</td><td>Application error detection</td><td>No PHI transmitted</td></tr>
+    <tr><td>AI/CDS provider (where enabled)</td><td>Clinical decision support</td><td>De-identified prompts only; provider DPA in place</td></tr>
+    <tr><td>Lemon Squeezy (payment processor)</td><td>Billing only — name, email, payment details. No PHI transmitted.</td><td>Standard Contractual Clauses</td></tr>
+    <tr><td>Clinical team</td><td>Providing your care</td><td>Role-based access control (RBAC)</td></tr>
+    <tr><td>Regulatory bodies</td><td>Where required by law</td><td>Only when legally required</td></tr>
+  </table>
+
+  <h2>6. International Transfers</h2>
+  <p>We process your data within the United Kingdom. Where third-party providers process data outside the UK, we ensure a UK adequacy regulation is in force or a UK IDTA is in place. AI provider prompts contain de-identified data only.</p>
+
+  <h2>7. Your Rights</h2>
+  <table>
+    <tr><th>Right</th><th>What it means</th><th>How to exercise</th></tr>
+    <tr><td><strong>Access (Art. 15)</strong></td><td>Request a copy of your personal data</td><td>Contact your clinic or <a href="mailto:qnicktech@gmail.com">qnicktech@gmail.com</a></td></tr>
+    <tr><td><strong>Rectification (Art. 16)</strong></td><td>Correct inaccurate data</td><td>Contact your clinic</td></tr>
+    <tr><td><strong>Erasure (Art. 17)</strong></td><td>Delete your data — subject to legal retention requirements</td><td>Contact your clinic; clinical records must be retained per Section 4</td></tr>
+    <tr><td><strong>Restriction (Art. 18)</strong></td><td>Restrict processing in certain circumstances</td><td>Contact your clinic</td></tr>
+    <tr><td><strong>Portability (Art. 20)</strong></td><td>Receive your data in FHIR R4 format</td><td>Contact your clinic</td></tr>
+    <tr><td><strong>Object (Art. 21)</strong></td><td>Object to legitimate-interests processing</td><td>Contact your clinic</td></tr>
+    <tr><td><strong>Automated decisions (Art. 22)</strong></td><td>Not subject to purely automated clinical decisions</td><td>H.E.Rv3 never makes automated clinical decisions — all AI outputs require clinician approval</td></tr>
+  </table>
+  <p>We will respond within <strong>one calendar month</strong>.</p>
+
+  <h2>8. Security Measures</h2>
+  <ul>
+    <li>Field-level AES-128 encryption for all health data at rest</li>
+    <li>TLS 1.2+ encryption for all data in transit</li>
+    <li>Role-based access control (RBAC)</li>
+    <li>Multi-factor authentication (MFA)</li>
+    <li>Append-only audit log of every PHI access</li>
+    <li>Automated vulnerability scanning and patching</li>
+  </ul>
+
+  <h2>9. Changes to This Notice</h2>
+  <p>We will update this notice when our processing changes or when the law requires. Previous versions are available on request.</p>
+
+  <h2>10. Complaints</h2>
+  <p>You have the right to complain to the <strong>Information Commissioner's Office (ICO)</strong>:</p>
+  <ul>
+    <li>Website: <a href="https://ico.org.uk" target="_blank" rel="noopener">ico.org.uk</a></li>
+    <li>Phone: 0303 123 1113</li>
+    <li>Post: ICO, Wycliffe House, Water Lane, Wilmslow, Cheshire, SK9 5AF</li>
+  </ul>
+</div>
 
 <footer>
   <div class="footer-inner">
